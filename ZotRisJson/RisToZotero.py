@@ -24,9 +24,8 @@ Zotero-Write-Token: <write token> # Header Variable?
 
 # Packages ----------------------------------------------
 
-import requests
+
 import re
-import os
 import uuid
 
 # --------------------------------------------------------
