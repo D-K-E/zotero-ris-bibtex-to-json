@@ -13,37 +13,8 @@ https://github.com/sciunto-org/python-bibtexparser
 __author__= "Kaan Eraslan"
 __license__= "MIT License, see LICENSE"
 
-
-
 import re
 import uuid
-
-"""
-field_maps = {
-    "booktitle" :"publicationTitle",
-	"school":"publisher",
-	"institution":"publisher",
-	"publisher":"publisher",
-	"issue":"issue",
-    "location":"place",
-    "address:":"place",
-	"chapter:":"section",
-	"edition:":"edition",
-	"series:":"series",
-	"title:":"title",
-	"volume:":"volume",
-	"copyright:":"rights",
-	"isbn:":"ISBN",
-	"issn:":"ISSN",
-	"shorttitle:":"shortTitle",
-	"url:":"url",
-	"doi:":"DOI",
-	"abstract:":"abstractNote",
-  	"nationality:": "country",
-  	"language:":"language",
-    "assignee:":"assignee"
-}
-"""
 
 def bibtex_text_read(bibDatabase_str):
     """
