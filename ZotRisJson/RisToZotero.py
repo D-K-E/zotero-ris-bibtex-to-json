@@ -7,19 +7,9 @@ original_creators = "Simon Kornblith and Aurimas Vinckevicius"
 __author__ = "Kaan Eraslan"
 
 """
-General Structure of the Algorithm:
-Parse the RIS
-Transform RIS to Python Dict
-Request Template from the Zotero server depending on the
-itemType given by the Python Dict
-Cache the empty template to a file for later use.
-Map python dict data to template
-Divide the total number of data to a list of 50 items
-Upload the lists one after another in a series of requests:
-
 POST <userOrGroupPrefix>/items # Request method
 Content-Type: application/json # Header Variable
-Zotero-Write-Token: <write token> # Header Variable?
+Zotero-Write-Token: <write token> # Header Variable
 """
 
 # Packages ----------------------------------------------
